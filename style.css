@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+body {
+    background-image: linear-gradient(rgb(0, 200, 255), rgb(0, 174, 255));
+    background-attachment: fixed;
+}
+
+:root {
+    --defaultclr: rgb(137, 43, 226);
+    --communicats: rgba(255, 255, 255, 0.96);
+    --shadowcommunicats: rgba(0, 0, 0, 0.493);
+    --communicatswhite: rgba(49, 45, 45);
+    --communicatwidth: 50%;
+    --communicatheight: 600px;
+}
+
+.precommunicatv1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+}
+
+.communicatv1 {
+    background-color: var(--communicats);
+    box-shadow: 1px 1px 10px 1px var(--shadowcommunicats);
+    border-radius: 5px;
+    position: absolute;
+    width: var(--communicatwidth);
+    padding: 20px;
+    z-index: 2;
+    position: fixed;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.update {
+    background-color: rgb(216, 216, 216);
+    padding: 20px;
+}
