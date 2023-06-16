@@ -50,3 +50,7 @@ body {
     background-color: rgb(216, 216, 216);
     padding: 20px;
 }
+
+.cl {
+    font-family: consolas;
+}
